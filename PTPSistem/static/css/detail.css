@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    color: #a00;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.intro {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.intro h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.intro p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.machine {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.machine-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.machine-header img {
+    width: 150px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.machine-title {
+    flex-grow: 1;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.machine-title h3 {
+    color: #a00;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.specification {
+    margin-top: 20px;
+}
+
+.spec-title {
+    color: #a00;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #eee;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .machine-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .machine-header img {
+        width: 100px;
+    }
+
+    .machine-title {
+        padding: 10px 0;
+    }
+}

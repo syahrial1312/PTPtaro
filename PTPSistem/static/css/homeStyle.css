@@ -1,0 +1,65 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #888; /* Warna abu-abu */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container utama */
+.container {
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Judul */
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Style untuk Accordion */
+.accordion {
+    background: #c5a93e; /* Warna emas */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+/* Tombol header accordion */
+.accordion-header {
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    color: black;
+
+}
+
+/* Ikon + dan - */
+.icon {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Isi Accordion (disembunyikan secara default) */
+.accordion-content {
+    background: white;
+    padding: 15px;
+    display: none;
+    border-top: 1px solid #ddd;
+    color: black;
+}
