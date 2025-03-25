@@ -1,32 +1,208 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f273ecc1-a960-4460-9aae-73b83b4e6d24" name="Changes" comment="" />
+    <list default="true" id="f273ecc1-a960-4460-9aae-73b83b4e6d24" name="Changes" comment="connect">
+      <change beforePath="$PROJECT_DIR$/.idea/PTPSistem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PTPSistem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/static/css/coba.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/static/css/detail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/static/css/homeStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/static/css/loginStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/static/files/wiring.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/static/images/Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/static/images/KBF-6000Xe 1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/static/images/KBF-6000ux 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/static/images/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/static/images/favicon.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/static/images/group0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/static/images/kawashima.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/static/images/sideBar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/static/js/coba.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/static/js/homeScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/static/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/templates/belajarHtml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/templates/coba.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/templates/detailMachineKawashima.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/templates/detailMesin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/templates/historyPM.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/templates/homeAll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/templates/planPM.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/templates/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/templates/setting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTPSistem/templates/workOrder.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="SQL File" />
+        <option value="package.json" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;syahrial1312&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/syahrial1312/TaroSistem.git&quot;,
+    &quot;accountId&quot;: &quot;ab3d9362-4143-4c94-8426-9e2e59414650&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="file://$USER_HOME$/AppData/Local/Temp/whats-new-dir/whats-new.http" environment="test" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2tOy4yKRhUaP2SvVJsOyNHjWu7f" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Flask server.Flask (app.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.PTPSistem.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.coba.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.detailMachineKawashima.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.historyPM.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.home.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.homeAll.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.login.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.sidebar.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.tableHistoryPM.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.testing.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.workOrder.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hubhu/PycharmProjects/PTPSistem/static/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hubhu\PycharmProjects\PTPSistem\static\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hubhu\PycharmProjects\PTPSistem\static\data" />
+      <recent name="C:\Users\hubhu\PycharmProjects\PTPSistem\static\js" />
+      <recent name="C:\Users\hubhu\PycharmProjects\PTPSistem\static\files" />
+      <recent name="C:\Users\hubhu\PycharmProjects\PTPSistem\static\images" />
+      <recent name="C:\Users\hubhu\PycharmProjects\PTPSistem\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flask server.PTPSistem">
+    <configuration name="detailMachineKawashima.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PTPSistem/templates/detailMachineKawashima.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PTPSistem/templates/login.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="tableHistoryPM.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PTPSistem/templates/tableHistoryPM.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="workOrder.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PTPSistem/templates/workOrder.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="PTPSistem" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PTPSistem" type="Python.FlaskServer">
+      <module name="PTPSistem" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flask server.Flask (app.py)" />
+        <item itemvalue="JavaScript Debug.workOrder.html" />
+        <item itemvalue="JavaScript Debug.tableHistoryPM.html" />
+        <item itemvalue="JavaScript Debug.login.html" />
+        <item itemvalue="JavaScript Debug.detailMachineKawashima.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,8 +219,56 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740237229383</updated>
-      <workItem from="1740237233650" duration="74000" />
+      <workItem from="1740237233650" duration="1392000" />
+      <workItem from="1740238848978" duration="201000" />
+      <workItem from="1740577319724" duration="6587000" />
+      <workItem from="1740712809289" duration="4610000" />
+      <workItem from="1740721561410" duration="14217000" />
+      <workItem from="1740988331782" duration="2030000" />
+      <workItem from="1741064550149" duration="13703000" />
+      <workItem from="1741154907191" duration="9485000" />
+      <workItem from="1741165908156" duration="356000" />
+      <workItem from="1741241731063" duration="326000" />
+      <workItem from="1741242095426" duration="2137000" />
+      <workItem from="1741246547370" duration="8414000" />
+      <workItem from="1741328037128" duration="6687000" />
+      <workItem from="1741586949657" duration="9772000" />
+      <workItem from="1741759012975" duration="10914000" />
+      <workItem from="1741846126607" duration="12242000" />
+      <workItem from="1741933726787" duration="9766000" />
+      <workItem from="1742194112021" duration="262000" />
+      <workItem from="1742194528870" duration="8171000" />
+      <workItem from="1742261030010" duration="2240000" />
+      <workItem from="1742364859445" duration="3016000" />
+      <workItem from="1742368112426" duration="7071000" />
+      <workItem from="1742451038070" duration="12141000" />
+      <workItem from="1742537560659" duration="12666000" />
+      <workItem from="1742798620508" duration="6138000" />
+      <workItem from="1742882366836" duration="474000" />
+      <workItem from="1742882973149" duration="297000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="connect" />
+    <option name="LAST_COMMIT_MESSAGE" value="connect" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PTPSistem$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1742367880517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PTPSistem$PTPSistem.coverage" NAME="PTPSistem Coverage Results" MODIFIED="1742804385964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
